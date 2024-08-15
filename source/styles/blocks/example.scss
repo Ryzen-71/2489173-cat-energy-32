@@ -4,11 +4,6 @@
 
 .example__heading {
   @include title($basic-color-text-dark, $secondary-font-family, 36px, 40px, 400);
-  // color: $basic-color-text-black;
-  // font-family: $secondary-font-Family;
-  // font-size: 36px;
-  // line-height: 40px;
-  // font-weight: 400;
 }
 
 .example__list {

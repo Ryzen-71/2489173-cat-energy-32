@@ -7,9 +7,6 @@
 }
 
 .header-promo__heading {
-  // color: $primary-color-text-white;
-  // font-family: $secondary-font-Family;
-  // font-size: 36px;
   @include title($primary-color-text-light, $secondary-font-family, 36px, 36px, 400);
 }
 
