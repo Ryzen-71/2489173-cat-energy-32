@@ -8,7 +8,7 @@
 }
 
 .sports-nutrition__heading {
-  @include title($basic-color-text-black, $secondary-font-Family, 24px, 37px, 400);
+  @include title($basic-color-text-dark, $secondary-font-family, 24px, 37px, 400);
   // color: $basic-color-text-black;
   // font-family: $secondary-font-Family;
   // font-size: 24px;
@@ -17,7 +17,7 @@
 }
 
 .sports-nutrition__link {
-  color: $basic-color-text-black;
+  color: $basic-color-text-dark;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
