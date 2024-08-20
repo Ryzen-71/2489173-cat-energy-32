@@ -4,10 +4,15 @@
   justify-content: space-between;
   font-size: 16px;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
   font-family: $primary-font-family;
   color: $primary-color-text-dark;
 
   &:active {
+<<<<<<< HEAD
     opacity: 0.6;
   }
 
@@ -33,6 +38,28 @@
   //     background-color: $secondary-background-color-accent-alternate;
   //   }
   // }
+=======
+    opacity: 0.3;
+  }
+}
+
+.developer__image {
+  display: block;
+  width: 27px;
+  height: 34px;
+  mask-image: url("../../icons/stack.svg#logo-html-academy");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: $special-background-color-dark;
+}
+
+.developer__image:hover {
+  background-color: $primary-background-color-accent;
+}
+
+.developer__image:active {
+  background-color: $secondary-background-color-accent-alternate;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 // .developer__image {

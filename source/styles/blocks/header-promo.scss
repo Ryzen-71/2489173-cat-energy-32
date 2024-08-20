@@ -1,4 +1,10 @@
 .header-promo {
+<<<<<<< HEAD
+=======
+  background-color: $primary-background-color-accent;
+  background-image: url("../../images/promo-cat-mobile@1x.jpeg");
+  color: $primary-color-text-light;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
   font-family: $secondary-font-family;
   text-align: center;
 
@@ -19,11 +25,14 @@
 
 .header-promo__heading {
   @include title($primary-color-text-light, $secondary-font-family, 36px, 36px, 400);
+<<<<<<< HEAD
 
   @media (min-width: $tablet-screen-width) {
     color: $basic-color-text-dark;
     font-size: 60px;
   }
+=======
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .header-promo__text {

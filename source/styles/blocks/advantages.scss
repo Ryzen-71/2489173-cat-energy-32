@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 .advantages {
   padding: 20px;
   padding-bottom: 49px;
 }
 
+=======
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 .advantages__heading {
   @include title($basic-color-text-dark, $secondary-font-family, 36px, 40px, 400);
 }
 
 .advantages__list {
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -22,6 +26,14 @@
   @media (min-width: $desktop-screen-width) {
     grid-template-columns: repeat(4, 1fr);
   }
+=======
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item {
@@ -29,12 +41,15 @@
   grid-template-columns: 60px 1fr;
   gap: 20px;
   align-items: center;
+<<<<<<< HEAD
 
   @media (max-width: $mobile-screen-width) {
     & + & {
       margin-top: 20px;
     }
   }
+=======
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item::before {
@@ -43,25 +58,44 @@
   height: 60px;
   background-color: $primary-background-color-accent;
   background-position: 50% 50%;
+<<<<<<< HEAD
   background-repeat: no-repeat;
+=======
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item--useful-material::before {
   background-image: url("../../icons/leaf.svg");
   background-size: 25px 28px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item--mixture::before {
   background-image: url("../../icons/powder.svg");
   background-size: 26px 29px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item--meal::before {
   background-image: url("../../icons/cutlery.svg");
   background-size: 25px 30px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .advantages__item--result::before {
   background-image: url("../../icons/alarm.svg");
   background-size: 26px 31px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+>>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
