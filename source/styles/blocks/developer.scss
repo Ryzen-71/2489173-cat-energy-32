@@ -2,6 +2,12 @@
   font-size: 16px;
   text-decoration: none;
   display: flex;
+  font-family: $primary-font-family;
+  color: $primary-color-text-dark;
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .developer__image {
@@ -12,4 +18,12 @@
   mask-repeat: no-repeat;
   mask-position: center;
   background-color: $special-background-color-dark;
+}
+
+.developer__image:hover {
+  background-color: $primary-background-color-accent;
+}
+
+.developer__image:active {
+  background-color: $secondary-background-color-accent-alternate;
 }

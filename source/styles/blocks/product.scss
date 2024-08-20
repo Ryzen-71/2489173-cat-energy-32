@@ -18,3 +18,20 @@
   font-size: 12px;
   line-height: 16px;
 }
+
+.product__heading--plus {
+  position: relative;
+}
+
+.product__heading--plus::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/plus-small.svg");
+  background-repeat: no-repeat;
+  top: -20px;
+  left: 70px;
+  background-size: 30px 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
