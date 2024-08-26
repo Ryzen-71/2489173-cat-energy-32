@@ -40,7 +40,6 @@
 
 .example__heading {
   @include title($basic-color-text-dark, $secondary-font-family, 36px, 40px, 400);
-<<<<<<< HEAD
 
   @media (min-width: $tablet-screen-width) {
     grid-column: 1 / -1;
@@ -64,8 +63,6 @@
     margin-top: 146px;
     margin-bottom: 70px;
   }
-=======
->>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
 
 .example__list {
@@ -110,11 +107,8 @@
 }
 
 .example__digital-value {
-<<<<<<< HEAD
   margin: 0;
   margin-bottom: 12px;
-=======
->>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
   color: $basic-color-text-dark;
   font-family: $secondary-font-family;
   font-size: 24px;

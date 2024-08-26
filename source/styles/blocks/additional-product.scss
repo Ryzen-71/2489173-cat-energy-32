@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 .additional-product {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-=======
-.additional-product__heading {
-  @include title($special-color-text-dark, $secondary-font-family, 16px, 16px, 400);
-  text-transform: uppercase;
->>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
+
 
 .additional-product__definition {
   margin: 0;

@@ -1,5 +1,4 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
-<<<<<<< HEAD
 .main-header__nav {
   @media (min-width: $tablet-screen-width) {
     width: 704px;
@@ -34,8 +33,6 @@
   margin: 0;
 }
 
-=======
->>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 .main-header__toggle {
   display: block;
   height: 24px;
@@ -44,11 +41,8 @@
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
-<<<<<<< HEAD
 
   @media (min-width: $tablet-screen-width) {
     display: none;
   }
-=======
->>>>>>> f79dc2f (Экспортировал вектроную графику (#10))
 }
