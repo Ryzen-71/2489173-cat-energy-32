@@ -1,5 +1,8 @@
 .header-promo {
-  font-family: $secondary-font-family;
+  background-color: $secondary-background-color-green;
+  background-image: url("../../images/promo-cat-mobile@1x.jpeg");
+  color: $primary-color-text-white;
+  font-family: $secondary-font-Family;
   text-align: center;
 
   @media (max-width: $mobile-screen-width) {
@@ -18,12 +21,10 @@
 }
 
 .header-promo__heading {
-  @include title($primary-color-text-light, $secondary-font-family, 36px, 36px, 400);
-
-  @media (min-width: $tablet-screen-width) {
-    color: $basic-color-text-dark;
-    font-size: 60px;
-  }
+  // color: $primary-color-text-white;
+  // font-family: $secondary-font-Family;
+  // font-size: 36px;
+  @include title($primary-color-text-white, $secondary-font-Family, 36px, 36px, 400);
 }
 
 .header-promo__text {
