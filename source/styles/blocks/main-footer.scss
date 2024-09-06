@@ -1,6 +1,6 @@
 .main-footer {
   background-color: $primary-background-color-grey;
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 .main-footer__inner {
@@ -26,6 +26,10 @@
   mask-size: 128px 24px;
   background-color: $additional-color-text-dark;
 
+  @media (max-width: $mobile-screen-width) {
+    margin-bottom: 18.5px;
+  }
+
   // &:hover {
   //   &::before {
   //     background-color: #3a3a3a;
@@ -45,4 +49,14 @@
 
 .main-footer__logo:active::before {
   background-color: #6b6b6b;
+}
+
+.main-footer__social {
+  margin: 0;
+
+  @media (max-width: $mobile-screen-width) {
+    margin-bottom: 20px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+  }
 }

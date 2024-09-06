@@ -74,6 +74,7 @@
   @media (max-width: $mobile-screen-width) {
     .main-header__nav--closed & {
       display: block;
+      margin: 0 auto;
     }
 
     .main-header__nav--opened & {
