@@ -12,6 +12,8 @@
 
   @media (min-width: $desktop-screen-width) {
     width: 1220px;
+    grid-template-columns: 202px 1fr;
+    padding: 54px 0;
   }
 }
 
@@ -33,6 +35,11 @@
 
 .main-header__logo .logo-text {
   justify-self: center;
+
+  @media (min-width: $desktop-screen-width) {
+    width: 118px;
+    height: 21px;
+  }
 }
 
 .main-header__menu {

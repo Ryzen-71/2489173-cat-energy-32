@@ -1,6 +1,14 @@
 .main-footer {
   background-color: $primary-background-color-grey;
   padding: 40px 20px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding: 42px 20px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding: 53px 20px;
+  }
 }
 
 .main-footer__inner {
@@ -15,6 +23,10 @@
 .main-footer__logo {
   display: flex;
   justify-content: center;
+
+  @media (min-width: $tablet-screen-width) {
+    justify-content: start;
+  }
 }
 
 .main-footer__logo::before {

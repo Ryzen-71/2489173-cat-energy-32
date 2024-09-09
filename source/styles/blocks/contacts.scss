@@ -47,7 +47,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    font-size: 16px;
+    line-height: 20px;
     text-align: right;
   }
 
@@ -82,7 +83,7 @@
 
   @media (min-width: $tablet-screen-width) {
     width: 708px;
-    padding: 56px 40px 61px;
+    padding: 59px 40px 61px;
     grid-template-columns: 172px 172px;
     justify-content: space-between;
   }
@@ -93,7 +94,7 @@
     grid-template-columns: 172px 155px;
     width: 565px;
     margin: 0;
-    padding: 56px 80px;
+    padding: 59px 80px;
     background-color: $primary-background-color-light;
     inset: 95px 765px 106px 110px;
   }

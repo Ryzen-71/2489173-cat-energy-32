@@ -21,6 +21,10 @@
     font-size: 18px;
     flex-wrap: wrap;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    font-size: 20px;
+  }
 }
 
 .site-menu__item {
