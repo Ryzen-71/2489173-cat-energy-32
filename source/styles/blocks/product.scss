@@ -1,11 +1,23 @@
 .product__heading {
   @include title($special-color-text-dark, $secondary-font-family, 16px, 20px, 400);
   text-transform: uppercase;
+  margin: 0;
 }
 
 .product__link {
+  margin-bottom: 13px;
+  padding-right: 41px;
+  padding-top: 8px;
+  grid-area: link;
+  color: $special-color-text-dark;
   text-decoration: none;
 }
+
+// .product .product__link:nth-child(5),
+// .product .product__link:nth-child(6),
+// .product .product__link:nth-child(7) {
+//   padding-top: 5px;
+// }
 
 .product__description {
   font-size: 12px;

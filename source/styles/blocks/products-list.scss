@@ -1,8 +1,12 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
 
+.products-list {
+  overflow: hidden;
+}
+
 .products-list__inner {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
@@ -17,9 +21,57 @@
   }
 }
 
+.products-list__item {
+  @media (max-width: $mobile-screen-width) {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(50% - 50vw);
+      width: 100vw;
+      height: 1px;
+      background-color: #ebebeb;
+    }
+
+    &:last-child::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 50vw);
+      width: 100vw;
+      height: 1px;
+      background-color: #ebebeb;
+    }
+  }
+}
+
+// .products-list__item::before {
+//   @media (max-width: $mobile-screen-width) {
+//     position: relative;
+
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       bottom: 0;
+//       left: calc(50% - 50vw);
+//       width: 100vw;
+//       height: 1px;
+//       background-color: #ebebeb;
+//     }
+//   }
+// }
+
+.products-list__item--show-more {
+  @media (min-width: $tablet-screen-width) {
+    margin-top: 80px;
+  }
+}
+
 .product {
   display: grid;
-  padding: 20px 20px 25px;
+  padding: 10px 0 24px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "img    link"
@@ -54,11 +106,30 @@
 
 .product__description {
   grid-area: description;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2px;
+  margin-bottom: 22px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
-.product__picture {
+.product__definition {
+  margin: 0;
+  text-align: right;
+}
+
+.product__definition--price {
+  text-transform: uppercase;
+}
+
+.product__picture,
+.product__img {
   grid-area: img;
   place-self: center center;
+  width: auto;
+  display: block;
 
   @media (min-width: $tablet-screen-width) {
     order: -1;

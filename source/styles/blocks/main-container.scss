@@ -1,6 +1,6 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
 .main-container__header-promo {
-  padding: 26px 0 20px;
+  padding: 26px 0 23px;
 
   @media (min-width: $tablet-screen-width) {
     padding-top: 34px;
@@ -15,4 +15,6 @@
 .main-container__heading {
   @include title($basic-color-text-dark, $secondary-font-family, 36px, 36px, 400);
   margin: 0;
+  padding-top: 27px;
+  padding-bottom: 41px;
 }
