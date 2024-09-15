@@ -111,6 +111,7 @@
   grid-area: button;
   text-align: center;
   line-height: 20px;
+  margin-top: auto;
 
   @media (min-width: $tablet-screen-width) {
     font-size: 16px;
@@ -118,6 +119,10 @@
     line-height: 20px;
     padding: 10px 26px;
     width: 100%;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding: 12px 26px;
   }
 }
 
