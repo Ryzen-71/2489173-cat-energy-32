@@ -19,6 +19,7 @@
     display: flex;
     justify-content: flex-end;
     font-size: 18px;
+    line-height: 24px;
     flex-wrap: wrap;
   }
 
@@ -40,7 +41,7 @@
     &::after {
       content: "";
       position: absolute;
-      bottom: 4px;
+      bottom: 12px;
       right: 17px;
       left: 17px;
       height: 2px;
@@ -54,11 +55,27 @@
     &::after {
       content: "";
       position: absolute;
-      bottom: 4px;
+      bottom: 8px;
       right: 17px;
       left: 17px;
       height: 2px;
       background-color: $primary-background-color-light;
+    }
+  }
+}
+
+.site-menu--catalog .site-menu__item--current {
+  @media (min-width: $desktop-screen-width) {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 8px;
+      right: 17px;
+      left: 17px;
+      height: 2px;
+      background-color: $primary-background-color-accent;
     }
   }
 }
@@ -70,7 +87,12 @@
   text-decoration: none;
 
   @media (min-width: $tablet-screen-width) {
-    padding: 17px;
+    // padding: 17px;
+    padding: 21px 18px 21px 16px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding: 21px 17px;
   }
 
   &:link:hover {

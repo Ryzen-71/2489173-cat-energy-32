@@ -19,8 +19,8 @@
 .example__inner {
   @media (min-width: $desktop-screen-width) {
     display: grid;
-    grid-template-columns: 1fr 590px;
-    gap: 152px;
+    grid-template-columns: 1fr 560px;
+    gap: 153px;
   }
 }
 
@@ -63,7 +63,7 @@
   @media (min-width: $tablet-screen-width) {
     grid-column: 1 / -1;
     margin-top: 10px;
-    margin-bottom: 58px;
+    margin-bottom: 57px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -205,6 +205,16 @@
   display: flex;
   overflow: hidden;
 
+  & img {
+    @media (min-width: $tablet-screen-width) {
+      margin-left: 5px;
+    }
+
+    @media (min-width: $desktop-screen-width) {
+      margin: 0;
+    }
+  }
+
   @media (max-width: $mobile-screen-width) {
     img {
       width: 280px;
@@ -219,6 +229,48 @@
       height: 511px;
       max-width: none;
     }
+  }
+
+  // @media (min-width: $desktop-screen-width) {
+  //   img {
+  //     width: 588px;
+  //     height: 511px;
+  //     max-width: none;
+  //   }
+  // }
+}
+
+// .example__image img {
+//   @media (min-width: $tablet-screen-width) {
+//     margin-left: 5px;
+//   }
+// }
+
+.example__image--before img {
+  @media (min-width: $tablet-screen-width) {
+    width: 585px;
+    height: 511px;
+    max-width: none;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    width: 558px;
+    height: 511px;
+    max-width: none;
+  }
+}
+
+.example__image--after img {
+  @media (min-width: $tablet-screen-width) {
+    width: 581px;
+    height: 511px;
+    max-width: none;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    width: 565px;
+    height: 511px;
+    max-width: none;
   }
 }
 

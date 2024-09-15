@@ -18,7 +18,7 @@
     <nav class="main-header__nav">
       <div class="main-header__wrap main-header__wrap--catalog">
 
-        <a class="main-header__logo logo" href="#">
+        <a class="main-header__logo logo" href="index.html">
           <picture>
             <source media="(min-width: 1440px)" srcset="./images/logo-image-desktop.svg" type="image/svg+xml" width="70" height="59">
             <source media="(min-width: 768px)" srcset="./images/logo-image-tablet.svg" type="image/svg+xml" width="60" height="50">
@@ -31,7 +31,7 @@
         </button>
       </div>
 
-      <ul class="main-header__menu site-menu">
+      <ul class="main-header__menu site-menu site-menu--catalog">
         <li class="site-menu__item ">
           <a class="site-menu__link" href="index.html">Главная</a>
         </li>
@@ -76,7 +76,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Курица</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">700 р.</dd>
+            <dd class="product__definition product__definition--price">700 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -99,7 +99,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Курица</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">1000 р.</dd>
+            <dd class="product__definition product__definition--price">1000 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -121,7 +121,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Рыба</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">700 р.</dd>
+            <dd class="product__definition product__definition--price">700 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -143,7 +143,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Рыбы</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">1000 р.</dd>
+            <dd class="product__definition product__definition--price">1000 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -165,7 +165,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Гречка</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">400 р.</dd>
+            <dd class="product__definition product__definition--price">400 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -187,7 +187,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Гречка</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">700 р.</dd>
+            <dd class="product__definition product__definition--price">700 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -209,7 +209,7 @@
             <dt class="product__title">Вкус</dt>
             <dd class="product__definition">Рис</dd>
             <dt class="product__title">Цена</dt>
-            <dd class="product__definition product__definition--price">500 р.</dd>
+            <dd class="product__definition product__definition--price">500 ₽</dd>
           </dl>
           <a class="product__button button" href="#">Заказать</a>
         </article>
@@ -232,7 +232,7 @@
               <dt class="visually-hidden">Объем</dt>
               <dd class="additional-product__definition">1 упаковка (100 г)</dd>
               <dt class="visually-hidden">Цена</dt>
-              <dd class="additional-product__definition additional-product__definition--price">200 р.</dd>
+              <dd class="additional-product__definition additional-product__definition--price">200 ₽</dd>
             </dl>
             <a class="additional-product__button button" href="#">Заказать</a>
           </li>
@@ -243,7 +243,7 @@
               <dd class="additional-product__definition">5 литров</dd>
 
               <dt class="visually-hidden">Цена</dt>
-              <dd class="additional-product__definition additional-product__definition--price">50 р.</dd>
+              <dd class="additional-product__definition additional-product__definition--price">50 ₽</dd>
             </dl>
 
             <a class="additional-product__button button" href="#">Заказать</a>
@@ -256,7 +256,7 @@
               <dd class="additional-product__definition">1 литр</dd>
 
               <dt class="visually-hidden">Цена</dt>
-              <dd class="additional-product__definition additional-product__definition--price">100 р.</dd>
+              <dd class="additional-product__definition additional-product__definition--price">100 ₽</dd>
             </dl>
 
             <a class="additional-product__button button" href="#">Заказать</a>
@@ -270,7 +270,7 @@
               <dd class="additional-product__definition">1 упаковка (30 г)</dd>
 
               <dt class="visually-hidden">Цена</dt>
-              <dd class="additional-product__definition additional-product__definition--price">300 р.</dd>
+              <dd class="additional-product__definition additional-product__definition--price">300 ₽</dd>
             </dl>
 
             <a class="additional-product__button button" href="#">Заказать</a>
@@ -302,7 +302,10 @@
       <div class="contacts__inner container">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="contacts__description">приглашаем <br> к сотрудничеству дилеров!</p>
-        <address class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <p class="contacts__address">
+          <span>ул. Большая Конюшенная, д. 19/8</span>
+          <span>Санкт-Петербург</span>
+        </p>
       </div>
       <!-- <picture>
         <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="./images/map-desktop@1x.png 1x, ./images/map-desktop@2x.png 2x">

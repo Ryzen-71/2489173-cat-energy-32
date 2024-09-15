@@ -9,7 +9,7 @@
   @media (min-width: $tablet-screen-width) {
     width: 704px;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 18px 0;
     display: grid;
     grid-template-columns: 174px 1fr;
     gap: 16px;
@@ -19,7 +19,7 @@
   @media (min-width: $desktop-screen-width) {
     width: 1220px;
     grid-template-columns: 202px 1fr;
-    padding: 54px 0;
+    padding: 52px 0;
   }
 }
 
@@ -27,7 +27,7 @@
   @media (max-width: $mobile-screen-width) {
     width: 320px;
     margin: 0 auto;
-    padding: 13px 21px 10px 20px;
+    padding: 13px 18px 10px 20px;
     display: grid;
     grid-template-columns: 33px 1fr 33px;
     gap: 16px;

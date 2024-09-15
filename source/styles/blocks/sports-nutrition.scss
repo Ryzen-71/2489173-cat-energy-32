@@ -218,16 +218,19 @@
   &::after {
     content: "";
     width: 24px;
+    // display: block;
     height: 10px;
     mask-image: url("../../icons/arrow.svg");
     mask-repeat: no-repeat;
-    background-position: 100% 50%;
+    mask-size: contain;
     background-color: $basic-color-text-dark;
+    transition: transform 1ms linear;
+    transform-origin: left center;
   }
 
   &:hover {
     &::after {
-      width: 32px;
+      transform: scaleX(1.35);
     }
   }
 
@@ -235,7 +238,7 @@
     opacity: 0.3;
 
     &::after {
-      width: 32px;
+      transform: scaleX(1.35);
     }
   }
 }

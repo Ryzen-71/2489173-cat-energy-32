@@ -11,13 +11,13 @@
   @media (min-width: $tablet-screen-width) {
     display: flex;
     flex-flow: row wrap;
-    gap: 60px;
+    gap: 58px 60px;
   }
 
   @media (min-width: $desktop-screen-width) {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 63px 80px;
   }
 }
 
@@ -65,13 +65,13 @@
 
 .products-list__item--show-more {
   @media (min-width: $tablet-screen-width) {
-    margin-top: 80px;
+    margin-top: 82px;
   }
 }
 
 .product {
   display: grid;
-  padding: 10px 0 24px;
+  padding: 10px 0 23px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "img    link"
@@ -82,43 +82,60 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px 25px;
+    padding: 12px 35px 40px;
     width: 324px;
-    justify-content: end;
+    min-height: 511px;
     background-color: #f2f2f2;
     background-image: linear-gradient(to bottom, #ffffff 80px, #f2f2f2 80px);
   }
 
   @media (min-width: $desktop-screen-width) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 20px 25px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 20px 20px 25px;
+    // width:245px;
+    // justify-content: end;
+    padding: 8px 38px 36px;
+    grid-template-rows: 200px auto;
     width: 245px;
-    justify-content: end;
+    grid-template-areas:
+      "img"
+      "link"
+      "description"
+      "button";
   }
 }
 
 .product__button {
   grid-area: button;
   text-align: center;
-}
+  line-height: 20px;
 
-.product__description {
-  grid-area: description;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2px;
-  margin-bottom: 22px;
-  font-size: 12px;
-  line-height: 14px;
+  @media (min-width: $tablet-screen-width) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 26px;
+    width: 100%;
+  }
 }
 
 .product__definition {
   margin: 0;
   text-align: right;
+
+  @media (min-width: $tablet-screen-width) {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    border-bottom: 1px solid #cdcdcd;
+    padding-top: 2px;
+    padding-bottom: 3px;
+  }
 }
+
 
 .product__definition--price {
   text-transform: uppercase;
@@ -133,5 +150,28 @@
 
   @media (min-width: $tablet-screen-width) {
     order: -1;
+  }
+}
+
+.product__picture {
+  padding-bottom: 8px;
+
+  @media (min-width: $tablet-screen-width) {
+    min-width: 200px;
+    min-height: 210px;
+    display: grid;
+    margin-bottom: 22px;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-bottom: 16px;
+    padding-bottom: 0;
+  }
+}
+
+.product__picture picture {
+  @media (min-width: $tablet-screen-width) {
+    place-self: center center;
   }
 }

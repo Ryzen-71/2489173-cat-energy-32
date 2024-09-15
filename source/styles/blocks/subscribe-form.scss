@@ -5,7 +5,15 @@
 
   @media (min-width: $tablet-screen-width) {
     display: grid;
-    grid-template-columns: 1fr  256px;
+    grid-template-columns: 376px  256px;
+    padding-left: 38px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    display: grid;
+    grid-template-columns: 496px  256px;
+    justify-content: center;
+    padding: 0;
   }
 }
 
