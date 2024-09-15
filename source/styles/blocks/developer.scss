@@ -22,7 +22,8 @@
     background-color: $special-background-color-dark;
   }
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     &::after {
       background-color: $primary-background-color-accent;
     }
