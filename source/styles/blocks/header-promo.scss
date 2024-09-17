@@ -33,7 +33,7 @@
       content: "";
       position: absolute;
       z-index: -2;
-      inset: -200px 0 4px 50%;
+      inset: -350px 0 4px 50%;
       background-color: #63a63b;
       background-position: 0 100%;
       background-repeat: no-repeat;
@@ -93,8 +93,9 @@
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
     font-size: 20px;
+    line-height: 20px;
   }
 }
 

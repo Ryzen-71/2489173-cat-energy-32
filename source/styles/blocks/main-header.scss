@@ -18,7 +18,9 @@
 
   @media (min-width: $desktop-screen-width) {
     width: 1220px;
-    grid-template-columns: 202px 1fr;
+    // grid-template-columns: 202px 1fr;
+    display: flex;
+    justify-content: space-between;
     padding: 52px 0;
   }
 }
@@ -76,6 +78,10 @@
   @media (min-width: $tablet-screen-width) {
     margin-right: -17px;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    max-width: 600px;
+  }
 }
 
 .main-header__toggler {
@@ -106,4 +112,13 @@
   @media (min-width: $tablet-screen-width) {
     display: none;
   }
+}
+
+.main-header--nojs .main-header__toggler {
+  display: none;
+}
+
+.main-header--nojs .main-header__wrap {
+  min-height: 0;
+  position: static;
 }
