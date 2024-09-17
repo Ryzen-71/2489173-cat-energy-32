@@ -114,11 +114,11 @@
   }
 }
 
-.main-header--nojs .main-header__toggler {
+.main-header__nav--nojs .main-header__toggler {
   display: none;
 }
 
-.main-header--nojs .main-header__wrap {
+.main-header__nav--nojs .main-header__wrap {
   min-height: 0;
   position: static;
 }

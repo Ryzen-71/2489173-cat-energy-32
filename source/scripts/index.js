@@ -4,7 +4,7 @@ const navElement = document.querySelector('.main-header__nav');
 const buttonElement = document.querySelector('.main-header__toggler');
 
 
-navElement.classList.remove('main-header--nojs');
+navElement.classList.remove('main-header__nav--nojs');
 navElement.classList.add('main-header__nav--opened');
 
 buttonElement.addEventListener('click', () => {
