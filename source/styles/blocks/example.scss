@@ -285,6 +285,7 @@
   color: $special-background-color-dark;
   position: absolute;
   left: 40%;
+  outline: none;
 
   &::before {
     position: absolute;
@@ -314,6 +315,7 @@
     transform: translate(0%, 269%);
   }
 
+  &:focus-visible,
   &:hover {
     &::before {
       background: #68b738;
