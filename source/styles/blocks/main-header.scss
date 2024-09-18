@@ -122,3 +122,7 @@
   min-height: 0;
   position: static;
 }
+
+.main-header__nav--nojs .site-menu__item {
+  display: block;
+}
