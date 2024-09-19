@@ -17,6 +17,12 @@ buttonElement.addEventListener('click', () => {
   }
 });
 
+/* в этот файл добавляет скрипт про интерактивную карту*/
+const contactsElement = document.querySelector('.contacts-map-script-wrap');
+
+contactsElement.classList.remove('contacts-map-script-wrap--nojs');
+
+
 // const navElement = document.querySelector('.main-header__nav');
 // const buttonElement = document.querySelector('.main-header__toggler');
 

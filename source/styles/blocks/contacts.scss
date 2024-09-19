@@ -59,6 +59,21 @@
   }
 }
 
+.contacts-map-script {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 362px;
+
+  @media (min-width: $tablet-screen-width) {
+    height: 400px;
+  }
+}
+
+.contacts-map-script-wrap--nojs .contacts-map-script {
+  display: none;
+}
+
 
 .contacts-map {
   display: block;
@@ -98,7 +113,7 @@
     margin: 0;
     padding: 59px 80px;
     background-color: $primary-background-color-light;
-    inset: 96px 765px 106px 255px;
+    inset: 96px 765px 106px 263px;
     max-height: 199px;
   }
 }
