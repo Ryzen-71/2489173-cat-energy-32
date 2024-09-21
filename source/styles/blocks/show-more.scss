@@ -14,8 +14,9 @@
     width: 324px;
     height: 429px;
     background-size: 60px 60px;
-    background-position: 50% 52px;
+    background-position: 50% 50px;
     border: 1px solid #f2f2f2;
+    background-image: url("../../icons/plus-big.svg");
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -23,6 +24,8 @@
     width: 245px;
     min-height: 430px;
     background-position: 50% 48px;
+    background-size: 60px 60px;
+    background-image: url("../../icons/plus-big.svg");
   }
 }
 

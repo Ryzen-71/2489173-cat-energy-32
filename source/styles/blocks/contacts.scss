@@ -88,13 +88,18 @@
 
 .contacts-map {
   display: block;
-  width: 100%;
+  width: 320px;
+  margin: 0 auto;
   border: none;
   height: 362px;
-  object-fit: cover;
 
   @media (min-width: $tablet-screen-width) {
     min-height: 400px;
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    width: 1440px;
   }
 }
 
