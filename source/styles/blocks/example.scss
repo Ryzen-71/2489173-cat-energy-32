@@ -230,21 +230,7 @@
       max-width: none;
     }
   }
-
-  // @media (min-width: $desktop-screen-width) {
-  //   img {
-  //     width: 588px;
-  //     height: 511px;
-  //     max-width: none;
-  //   }
-  // }
 }
-
-// .example__image img {
-//   @media (min-width: $tablet-screen-width) {
-//     margin-left: 5px;
-//   }
-// }
 
 .example__image--before img {
   @media (min-width: $tablet-screen-width) {
@@ -284,7 +270,6 @@
   background-color: transparent;
   color: $special-background-color-dark;
   position: absolute;
-  // left: 41%;
   left: 50%;
   transform: translate(-25px);
   outline: none;
@@ -333,16 +318,6 @@
 
 @media (min-width: $tablet-screen-width) {
   .example__button {
-    // left: 46%;
-    // top: 24px;
-    mask-size: 40px 512px;
-  }
-}
-
-@media (min-width: $desktop-screen-width) {
-  .example__button {
-    // top: 0;
-    // left: 45.5%;
     mask-size: 40px 512px;
   }
 }

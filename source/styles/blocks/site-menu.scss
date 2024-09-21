@@ -17,7 +17,6 @@
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
-    // justify-content: flex-end;
     margin-left: auto;
     font-size: 18px;
     line-height: 24px;
@@ -34,12 +33,6 @@
     border-bottom: 1px solid #e6e6e6;
   }
 }
-
-// .main-header__nav--nojs .site-menu__item:not(:last-child) {
-//   @media (max-width: $mobile-screen-width) {
-//     border-bottom: 1px solid #e6e6e6;
-//   }
-// }
 
 .site-menu__item--current {
   @media (min-width: $tablet-screen-width) {
@@ -94,7 +87,6 @@
   text-decoration: none;
 
   @media (min-width: $tablet-screen-width) {
-    // padding: 17px;
     padding: 21px 18px 21px 16px;
   }
 

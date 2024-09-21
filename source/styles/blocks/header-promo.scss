@@ -38,7 +38,6 @@
       background-position: 0 100%;
       background-repeat: no-repeat;
       background-image: url("../../images/promo-cat-desktop@1x.webp"), url("../../images/promo-cat-desktop@1x.jpg");
-      // width: 720px;
       /* stylelint-disable-next-line max-nesting-depth */
       @media (min-resolution: 2dppx) {
         background-size: auto 696px;
@@ -51,7 +50,6 @@
 .header-promo__inner {
   @media (min-width: $tablet-screen-width) {
     position: relative;
-
     padding: 0 90px 526px;
   }
 
@@ -61,12 +59,10 @@
   }
 }
 
-
 .header-promo__heading {
   @include title($primary-color-text-light, $secondary-font-family, 36px, 36px, 400);
   margin: 0;
   margin-bottom: 25px;
-
 
   @media (min-width: $tablet-screen-width) {
     color: $basic-color-text-dark;

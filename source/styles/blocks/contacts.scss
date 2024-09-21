@@ -96,10 +96,6 @@
   @media (min-width: $tablet-screen-width) {
     min-height: 400px;
   }
-
-  // @media (min-width: $desktop-screen-width) {
-  //   position: relative;
-  // }
 }
 
 .contacts__inner {
@@ -125,8 +121,6 @@
     margin: 0;
     padding: 59px 80px;
     background-color: $primary-background-color-light;
-    // inset: 96px 765px 106px 263px;
-    // inset: 96px 765px 106px calc(100% - 110px);
     top: 94px;
 
     min-height: 199px;
