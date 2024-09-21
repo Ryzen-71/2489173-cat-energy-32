@@ -7,14 +7,14 @@
     background-color: #63a63b;
     background-repeat: no-repeat;
     background-position: 50% 0;
-    background-image: url("../../images/promo-cat-mobile@1x.webp"), url("../../images/promo-cat-mobile@1x.jpeg"), linear-gradient(#63a63b 0, #63a63b 302px, $primary-background-color-light 302px);
+    background-image: url("../../images/promo-cat-mobil@1x.webp"), url("../../images/promo-cat-mobilel@1x.jpg"), linear-gradient(#63a63b 0, #63a63b 302px, $primary-background-color-light 302px);
 
     @media (min-resolution: 2dppx) {
       background-size: auto 302px, auto;
       background-image:
         url("../../images/promo-cat-mobile@2x.webp"),
         linear-gradient(#63a63b  0, #63a63b 302px, $primary-background-color-light 302px),
-        url("../../images/promo-cat-mobile@2x.jpeg"),
+        url("../../images/promo-cat-mobile@2x.jpg"),
         linear-gradient(#63a63b  0, #63a63b 302px, $primary-background-color-light 302px);
     }
   }

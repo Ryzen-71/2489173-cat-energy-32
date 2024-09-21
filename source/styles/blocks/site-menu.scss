@@ -35,6 +35,12 @@
   }
 }
 
+// .main-header__nav--nojs .site-menu__item:not(:last-child) {
+//   @media (max-width: $mobile-screen-width) {
+//     border-bottom: 1px solid #e6e6e6;
+//   }
+// }
+
 .site-menu__item--current {
   @media (min-width: $tablet-screen-width) {
     position: relative;

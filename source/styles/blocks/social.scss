@@ -9,7 +9,6 @@
 
 .social__link {
   display: block;
-  outline: none;
 
   &::before {
     content: "";
@@ -27,7 +26,6 @@
   &:focus-visible {
     &::before {
       background: $primary-background-color-accent;
-      outline: none;
     }
   }
 
